@@ -10,12 +10,3 @@ var = ", we are waiting you for" + service + address
 sms = f"dear {name}, we are waiting for you {service}, fot {address} {smile}"
 print(sms)
 print(sms)
-number = int(input("Enter your birthday : "))
-first = number // 1000
-second = (number % 1000) // 100
-third = (number % 100) // 10
-four = (number % 10) % 10
-print(first)
-print(second)
-print(third)
-print(four)
