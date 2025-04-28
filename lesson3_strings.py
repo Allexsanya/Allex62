@@ -27,7 +27,8 @@ slices3 = some_string[12:15]
 slices4 = some_string[::2]  # каджій второай символ
 slices5 = some_string[::-1]  # рохворот строчки
 slices6 = some_string[::-2]
-slices7 = some_string[-3:-11:-2]
+slices7 = some_string[-3:-12:-2]
+
 
 pass
 pass
