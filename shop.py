@@ -18,8 +18,6 @@ cheese_weight = slider(
     "Cheese", type=FLOAT, min_value=0, max_value=5, value=0.15, required=True
 )
 cheese_weight = decimal.Decimal(cheese_weight)
-    decimal.Decimal("target1").quantize
-)
 potato_weight = pw_input(
     "Potato", type=NUMBER, required=True, min_value=0, max_value=10, value=3
 )
