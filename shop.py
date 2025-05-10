@@ -12,6 +12,7 @@ POTATO_PRICE = decimal.Decimal(40.32)
 # HEADER
 put_html("<h1>Welcome to our shops</h1>")
 
+
 # INPUT SECTION
 
 cheese_weight = slider(
