@@ -14,9 +14,9 @@ products = ["bread", "milk", "butter", "salt"]
 #     for product in products:
 #         writer.writerow([product, random.randint(1, 52)])
 
-with open("shop_plan.csv", mode="r", encoding="utf-8") as file:
-    # for line in file.readlines():
-    #     print(line, end="")
-    reader = csv.reader(file)
-    for row in reader:
-        print(row)
+# with open("shop_plan.csv", mode="r", encoding="utf-8") as file:
+#     # for line in file.readlines():
+#     #     print(line, end="")
+#     reader = csv.reader(file)
+#     for row in reader:
+#         print(row)
