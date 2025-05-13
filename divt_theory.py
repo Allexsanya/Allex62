@@ -60,10 +60,10 @@ user_data = {
     "id": 18,
     "city": "Kyiv",
 }
-result_dict_optional1 = {**user_address, **user_data}
-result_dict_optional2 = user_address | user_data
-
-print(result_dict_optional2 == result_dict_optional1)
+# result_dict_optional1 = {**user_address, **user_data}
+# result_dict_optional2 = user_address | user_data
+#
+# print(result_dict_optional2 == result_dict_optional1)
 
 
 # delete
@@ -72,6 +72,18 @@ result_dict_optional1.clear()
 
 # delete value by key
 del result_dict_optional2["street"]
-city = result_dict_optional2.pop("city")
+city = result_dict_optional2.pop("city2", "")
+
+
+# iterate
+for elem in user:
+    print(elem, "->", user[elem])
+
+
+atlethes = []
+for elem in scores.values:
+    atleths.extend(elem)
+print(atlethes)
+
 
 pass
